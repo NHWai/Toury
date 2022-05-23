@@ -131,6 +131,10 @@ body {
   justify-content: space-between;
 }
 
+#menu {
+  display: none;
+}
+
 /* Navbar */
 
 .navbar {
@@ -291,7 +295,7 @@ input[type="radio"] {
   position: absolute;
   top: 10%;
   left: 40%;
-  z-index: 100;
+  z-index: 20;
 }
 
 input[type="radio"]:nth-child(2) {
