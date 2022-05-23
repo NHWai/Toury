@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>AZ Web Project</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar p-4">
+      <div class="container">
+        <a data-content="Toury" class="logo heading">Toury</a>
+        <div class="dd"> 
+          <input id="menu" type="checkbox">
+          <div class="dd-btn">
+            <label for="menu">
+              <i class='bx bx-menu'></i>
+              <i class='bx bx-x'></i>
+            </label>
+          </div>
+          <div class="dd-content">
+        <ul class="navlinks_contain">
+          <li><a class="navlink" href="#discover">Discover</a></li>
+          <li><a class="navlink" href="#blog">Blog</a></li>
+          <li><a class="navlink" href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-nav">LogIn</a>
+      </div>
+      </div>
+      </div>
+    </nav>
+    <!-- heroSection -->
+    <section class="hero">
+      <div class="hero-img"></div>
+      <div class="container">
+        <h1 class="heading">Tour around the world with the new destinations</h1>
+        <p class="description">
+          We believe in a travelling experience by providing our tour plan that
+          suits your the best!
+        </p>
+        <div class="">
+          <a href="#destinations" class="btn btn-hero">Explore now</a>
+        </div>
+      </div>
+    </section>
+    <!-- Slider/ Discover -->
+    <section id="discover" class="slider p-4 mt-12">
+      <div class="container flex">
+        <div class="slider-content">
+          <h2 data-content="Discover The World" class="header heading">
+            Discover The World
+          </h2>
+          <p class="lead-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Exercitationem hic quam tenetur quisquam nihil
+          </p>
+        </div>
+
+        <div class="slider-container">
+          <input id="one" type="radio" name="nav" />
+          <input id="two" type="radio" name="nav" />
+          <input id="three" type="radio" name="nav" />
+
+          <div class="content-holder">
+            <div class="card">
+              <div class="card-content">
+                <p>Bali</p>
+                <h3>Indonesia</h3>
+              </div>
+              <img src="./assests/bali.jpg" alt="" />
+            </div>
+
+            <div class="card">
+              <div class="card-content">
+                <p>Bagan</p>
+                <h3>Myanmar</h3>
+              </div>
+              <img src="./assests/bagan.jpg" alt="" />
+            </div>
+
+            <div class="card">
+              <div class="card-content">
+                <p>Ca</p>
+                <h3>Cambodia</h3>
+              </div>
+              <img src="./assests/cambodia.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What we can offer -->
+    <section class="offer mt-12 p-4">
+      <div class="container">
+        <h2 data-content="What we can offer" class="heading">
+          What we can offer
+        </h2>
+        <div class="offer-content flex mt-8">
+          <div class="offer-card">
+            <h3 class="header">Various Destination</h3>
+            <p class="normal-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+              provident quod voluptatem amet sit quidem?
+            </p>
+          </div>
+          <div class="offer-card">
+            <h3 class="header">Everything is included</h3>
+            <p class="normal-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+              provident quod voluptatem amet sit quidem?
+            </p>
+          </div>
+          <div class="offer-card">
+            <h3 class="header">The whole package</h3>
+            <p class="normal-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+              provident quod voluptatem amet sit quidem?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Destination -->
+    <section id="destinations" class="destination p-4 mt-12">
+      <div class="container">
+        
+        <h2 data-content="We Provide Top Destinations" class="heading">
+          We Provide Top Destinations
+          </h2>
+          <input type="checkbox" id="toview" class="toview" />
+          <label for="toview" class="btn btn-destination"></label>
+          <div class="featured-cards-contain mt-8">
+            <div class="des-card">
+              <img src="./assests/naussau bahamas.webp" alt="bali" />
+              <p class="des-location">Nassau, Bahamas</p>
+              <small class="price-tag">1000$</small>
+              <div class="des-card-content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, obcaecati!
+              </div>
+            </div>
+            <div class="des-card">
+              <img src="./assests/norway,oslo.jpg" alt="bali" />
+              <p class="des-location">Oslo, Norway</p>
+              <small class="price-tag">1200$</small>
+              <div class="des-card-content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, obcaecati!
+              </div>
+            </div>
+            <div class="des-card">
+              <img src="./assests/samoa south pacific.jpeg" alt="bali" />
+              <p class="des-location">Samoa Island</p>
+              <small class="price-tag">1100$</small>
+              <div class="des-card-content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, obcaecati!
+              </div>
+            </div>
+          </div>
+          <div class="view-more-contain">
+            <div class="des-card">
+              <img src="./assests/denmark copenhagen.jpg" alt="bali" />
+              <p class="des-location">Copenhagen, Denmark</p>
+              <small class="price-tag">1500$</small>
+              <div class="des-card-content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, obcaecati!
+              </div>
+            </div>
+            <div class="des-card">
+              <img src="./assests/france paris.jpg" alt="bali" />
+              <p class="des-location">Paris, France</p>
+              <small class="price-tag">1300$</small>
+              <div class="des-card-content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, obcaecati!
+              </div>
+            </div>
+            <div class="des-card">
+              <img src="./assests/italy naples.jpeg" alt="bali" />
+              <p class="des-location">Nepales, Italy</p>
+              <small class="price-tag">1200$</small>
+              <div class="des-card-content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, obcaecati!
+              </div>
+            </div>
+            <div class="des-card">
+              <img src="./assests/germany frankfurt.jpg" alt="bali" />
+              <p class="des-location">Frankfurt, Germany</p>
+              <small class="price-tag">1000$</small>
+              <div class="des-card-content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, obcaecati!
+              </div>
+            </div>
+            <div class="des-card">
+              <img src="./assests/puerto-rico.jpg" alt="bali" />
+              <p class="des-location">Puerto Rico</p>
+              <small class="price-tag">1000$</small>
+              <div class="des-card-content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, obcaecati!
+              </div>
+            </div>
+            <div class="des-card">
+              <img src="./assests/italy sicily.jpg" alt="bali" />
+              <p class="des-location">Sicily, Italy</p>
+              <small class="price-tag">1400$</small>
+              <div class="des-card-content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, obcaecati!
+              </div>
+            </div>
+          </div>
+        </h2>
+      </div>
+    </section>
+    <!-- blog -->
+    <section id="blog" class="blog p-4">
+      <div class="container">
+        <h2 data-content="Read awesome blog" class="heading">
+          Read awesome blog
+        </h2>
+        <div class="blog-card mt-8">
+          <div class="date">
+            <p>10</p>
+            <small>April 2021</small>
+          </div>
+          <div class="blog-title">How to get around in a new place</div>
+          <p class="read-blog">Read more</p>
+        </div>
+        <div class="blog-card">
+          <div class="date">
+            <p>26</p>
+            <small>July 2021</small>
+          </div>
+          <div class="blog-title">
+            Tips and Tools for hosting in multiple languages
+          </div>
+          <p class="read-blog">Read more</p>
+        </div>
+        <div class="blog-card">
+          <div class="date">
+            <p>5</p>
+            <small>July 2022</small>
+          </div>
+          <div class="blog-title">Writing a clear and specific experience</div>
+          <p class="read-blog">Read more</p>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="footer p-4 mt-12">
+      <div class="container flex">
+        <div class="footer-logo">
+          <div class="footer-lead">Toury</div>
+          <p>1920 Holden Street San Diego. LA</p>
+          <p>Call us: 545-820</p>
+          <p class="social">
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-instagram-alt"></i
+            ><i class="bx bxl-linkedin-square"></i>
+          </p>
+        </div>
+        <div class="tour">
+          <div class="footer-lead">Tour</div>
+          <p>Caribbean</p>
+          <p>Europe</p>
+          <p>America</p>
+          <p>Asia</p>
+        </div>
+        <div class="company">
+          <div class="footer-lead">Company</div>
+          <p>About Us</p>
+          <p>Blog</p>
+          <p>Media</p>
+          <p>Contact Us</p>
+        </div>
+        <div class="resources">
+          <div class="footer-lead">Blog</div>
+          <p>Review</p>
+          <p>Help Center</p>
+        </div>
+        <div class="more">
+          <div class="footer-lead">More</div>
+          <p>Terms & Condition</p>
+          <p>Privacy Policy</p>
+          <p>FAQ</p>
+        </div>
+        <a class="up" href="#"><i class='bx bx-chevron-up'></i></a> 
+      </div>
+      <div class="copy">
+        Copyright &#169; 2022, Coded by
+        <a href="https://github.com/NHWai" target="_blank">nhwai</a>
+      
+      </div>
+    </footer>
+  </body>
+</html>
